@@ -1,31 +1,30 @@
 {
-  "name": "ionic-social-buttons",
-  "version": "0.0.1",
-  "authors": [
-    "Carlos Piles <carlospilesdeveloper@gmail.com>"
-  ],
-  "description": "ionic-social-buttons is a set of classes that contain contain social buttos from ionicons by Ionic Framework",
-  "keywords": [
-    "ionic social",
-    "ionic social button",
-    "social",
-    "ionicons",
-    "Ionic Framework",
-    "Ionic",
-    "AngularJS",
-    "Apps",
-    "Hybrid",
-    "Mobile"
-  ],
-  "license": "MIT",
-  "homepage": "https://github.com/cpiles",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "www"
-  ],
-  "dependencies": {
-    "ionic": ">=0.9.27"
-  }
+	"name": "ionic-social-buttons",
+	"version": "0.0.1",
+	"authors": [
+		"Carlos Piles <carlospilesdeveloper@gmail.com>"
+	],
+	"description": "ionic-social-buttons is a set of classes that contain contain social buttos from ionicons by Ionic Framework",
+	"keywords": [
+		"ionic social",
+		"ionic social button",
+		"social",
+		"ionicons",
+		"Ionic Framework",
+		"Ionic",
+		"AngularJS",
+		"Apps",
+		"Hybrid",
+		"Mobile"
+	],
+	"license": "MIT",
+	"homepage": "https://github.com/cpiles",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"www"
+	],
+	"dependencies": {
+		"ionic": ">=0.9.27"
+	}
 }
