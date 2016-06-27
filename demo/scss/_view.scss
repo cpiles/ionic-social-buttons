@@ -1,0 +1,42 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-23 04:33:44
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 03:54:07
+*/
+.app-view {
+	background: $light;
+}
+.back-button {
+	color: black !important
+}
+.back-text {
+	display: none !important
+}
+.capitalize {
+	text-transform: capitalize !important;
+}
+.app-home {
+	@extend .app-view;
+}
+.card {
+	.title-social {
+		span {
+			text-transform: capitalize;
+			font-size: 23px;
+			font-weight: bold;
+			vertical-align: text-bottom;
+			margin-left: 5px;
+			display: -webkit-inline-box;
+		}
+	}
+}
+.align-center {
+	text-align: center;
+}
+.align-right {
+	text-align: right;
+}
+.align-left {
+	text-align: left;
+}
