@@ -1,16 +1,16 @@
 
 # <a href='https://postimg.org/image/c6s5woozz/' target='_blank'><img src='https://s19.postimg.org/c6s5woozz/logo.png' border='0' alt='postimage'/></a> Ionic social buttons
 
-### Introduction:
+### Introduction
 
 This is an **ionic-social-buttons** component, which can be used in any Ionic framework's application. No additional plugins required for this component.
- <br />
-**ionic-social-buttons**** is a set of classes that contain contain social buttos from ionicons by Ionic Framework
- <br />
+***
+**ionic-social-buttons** is a set of classes that contain contain social buttos from ionicons by Ionic Framework
+ ***
  Please rate this plugin @ [Ionic Market](https://market.ionic.io/plugins/ionic-social-buttons)
 
 
-### Prerequisites.
+### Prerequisites
 
 * node.js, npm
 * ionic
@@ -25,7 +25,7 @@ This is an **ionic-social-buttons** component, which can be used in any Ionic fr
   * ionic setup sass 
   * ionic serve 
 
-### How to use:
+### How to use
 
 1. bower install ionic-social-buttons --save
 
@@ -38,7 +38,7 @@ This is an **ionic-social-buttons** component, which can be used in any Ionic fr
 @import "www/lib/ionic-social-buttons/ionic-social-buttons.scss";
 ```
 
-### Uses :
+### Uses
 
 1. The default button class from ionic is required in the next class
   * social-button-square-{{social}}
@@ -50,7 +50,7 @@ This is an **ionic-social-buttons** component, which can be used in any Ionic fr
 3. There are classes for large and small buttons
 
 
-### Available class:
+### Available class
   
 * `Color`
   * **social-color-{{social}}**
@@ -73,7 +73,7 @@ This is an **ionic-social-buttons** component, which can be used in any Ionic fr
   * Small (add class before)
     * **social-button-large**
 
-#### Available social buttons:
+#### Available social buttons
 
   * android
   * angular
@@ -104,7 +104,7 @@ This is an **ionic-social-buttons** component, which can be used in any Ionic fr
   * yahoo
   * youtube
 
-#### Examples:
+#### Examples
 
 ```html
   <i class="social-icon-circle-instagram"></i>
