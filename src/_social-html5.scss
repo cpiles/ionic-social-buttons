@@ -2,7 +2,7 @@
 * @Author: Carlos Piles
 * @Date:   2016-06-20 07:56:05
 * @Last Modified by:   carlos
-* @Last Modified time: 2016-06-24 14:57:23
+* @Last Modified time: 2016-06-27 06:39:45
 */
 /**
  * Social html5
@@ -30,7 +30,7 @@
  	}
  }
 
- .social-button-html5-outline{
+ .social-button-outline-html5{
  	@extend .ion-social-html5;
  	@extend .social-button-outline;
  	color: $social-html5;

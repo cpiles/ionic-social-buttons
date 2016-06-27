@@ -2,7 +2,7 @@
 * @Author: Carlos Piles
 * @Date:   2016-06-20 07:56:05
 * @Last Modified by:   carlos
-* @Last Modified time: 2016-06-24 14:58:49
+* @Last Modified time: 2016-06-27 06:40:34
 */
 /**
  * Social snapchat
@@ -30,7 +30,7 @@
  	}
  }
 
- .social-button-snapchat-outline{
+ .social-button-outline-snapchat{
  	@extend .ion-social-snapchat;
  	@extend .social-button-outline;
  	color: $social-snapchat;

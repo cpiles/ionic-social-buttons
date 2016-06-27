@@ -2,7 +2,7 @@
 * @Author: Carlos Piles
 * @Date:   2016-06-20 07:56:05
 * @Last Modified by:   carlos
-* @Last Modified time: 2016-06-24 15:41:46
+* @Last Modified time: 2016-06-27 06:39:19
 */
 /**
  * Social Facebook
@@ -30,7 +30,7 @@
  	}
  }
 
- .social-button-facebook-outline{
+ .social-button-outline-facebook{
  	@extend .ion-social-facebook;
  	@extend .social-button-outline;
  	color: $social-facebook;

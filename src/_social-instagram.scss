@@ -2,7 +2,7 @@
 * @Author: Carlos Piles
 * @Date:   2016-06-20 07:56:05
 * @Last Modified by:   carlos
-* @Last Modified time: 2016-06-24 13:45:15
+* @Last Modified time: 2016-06-27 06:39:53
 */
 /**
  * Social instagram
@@ -29,7 +29,7 @@ $social-instagram-hover:#305777;
  		background-color: $social-instagram-hover;
  	}
  }
-  .social-button-instagram-outline{
+  .social-button-outline-instagram{
  	@extend .ion-social-instagram;
  	@extend .social-button-outline;
  	color: $social-instagram;

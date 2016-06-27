@@ -2,7 +2,7 @@
 * @Author: Carlos Piles
 * @Date:   2016-06-20 07:56:05
 * @Last Modified by:   carlos
-* @Last Modified time: 2016-06-24 14:56:15
+* @Last Modified time: 2016-06-27 06:39:06
 */
 /**
  * Social codepen
@@ -30,7 +30,7 @@
  	}
  }
 
- .social-button-codepen-outline{
+ .social-button-outline-codepen{
  	@extend .ion-social-codepen;
  	@extend .social-button-outline;
  	color: $social-codepen;

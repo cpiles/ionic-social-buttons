@@ -2,7 +2,7 @@
 * @Author: Carlos Piles
 * @Date:   2016-06-20 07:56:05
 * @Last Modified by:   carlos
-* @Last Modified time: 2016-06-24 14:55:19
+* @Last Modified time: 2016-06-27 06:38:58
 */
 /**
  * Social bitcoin
@@ -30,7 +30,7 @@
  	}
  }
 
- .social-button-bitcoin-outline{
+ .social-button-outline-bitcoin{
  	@extend .ion-social-bitcoin;
  	@extend .social-button-outline;
  	color: $social-bitcoin;

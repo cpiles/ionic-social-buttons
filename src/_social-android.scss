@@ -2,7 +2,7 @@
 * @Author: Carlos Piles
 * @Date:   2016-06-20 07:56:05
 * @Last Modified by:   carlos
-* @Last Modified time: 2016-06-24 20:00:45
+* @Last Modified time: 2016-06-27 06:38:16
 */
 /**
  * Social android
@@ -30,7 +30,7 @@
  	}
  }
 
- .social-button-android-outline{
+ .social-button-outline-android{
  	@extend .ion-social-android;
  	@extend .social-button-outline;
  	color: $social-android;

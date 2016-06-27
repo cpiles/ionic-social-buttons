@@ -2,7 +2,7 @@
 * @Author: Carlos Piles
 * @Date:   2016-06-20 07:56:05
 * @Last Modified by:   carlos
-* @Last Modified time: 2016-06-24 14:54:16
+* @Last Modified time: 2016-06-27 06:38:53
 */
 /**
  * Social apple
@@ -30,7 +30,7 @@
  	}
  }
 
- .social-button-apple-outline{
+ .social-button-outline-apple{
  	@extend .ion-social-apple;
  	@extend .social-button-outline;
  	color: $social-apple;

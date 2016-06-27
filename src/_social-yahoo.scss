@@ -2,7 +2,7 @@
 * @Author: Carlos Piles
 * @Date:   2016-06-20 07:56:05
 * @Last Modified by:   carlos
-* @Last Modified time: 2016-06-24 13:46:41
+* @Last Modified time: 2016-06-27 06:41:12
 */
 /**
  * Social yahoo
@@ -29,7 +29,7 @@
  		background-color: $social-yahoo-hover;
  	}
  }
- .social-button-yahoo-outline{
+ .social-button-outline-yahoo{
  	@extend .ion-social-yahoo;
  	@extend .social-button-outline;
  	color: $social-yahoo;

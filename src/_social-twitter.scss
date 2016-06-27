@@ -2,7 +2,7 @@
 * @Author: Carlos Piles
 * @Date:   2016-06-20 07:56:05
 * @Last Modified by:   carlos
-* @Last Modified time: 2016-06-24 13:46:25
+* @Last Modified time: 2016-06-27 06:40:51
 */
 /**
  * Social twitter
@@ -29,7 +29,7 @@
  		background-color: $social-twitter-hover;
  	}
  }
- .social-button-twitter-outline{
+ .social-button-outline-twitter{
  	@extend .ion-social-twitter;
  	@extend .social-button-outline;
  	color: $social-twitter;

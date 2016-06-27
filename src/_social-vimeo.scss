@@ -2,7 +2,7 @@
 * @Author: Carlos Piles
 * @Date:   2016-06-20 07:56:05
 * @Last Modified by:   carlos
-* @Last Modified time: 2016-06-24 13:46:32
+* @Last Modified time: 2016-06-27 06:40:57
 */
 /**
  * Social vimeo
@@ -29,7 +29,7 @@
  		background-color: $social-vimeo-hover;
  	}
  }
- .social-button-vimeo-outline{
+ .social-button-outline-vimeo{
  	@extend .ion-social-vimeo;
  	@extend .social-button-outline;
  	color: $social-vimeo;

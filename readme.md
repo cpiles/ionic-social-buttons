@@ -1,9 +1,13 @@
 
-# ionic social styles
+# <a href='https://postimg.org/image/c6s5woozz/' target='_blank'><img src='https://s19.postimg.org/c6s5woozz/logo.png' border='0' alt='postimage'/></a> Ionic social buttons
 
 ### Introduction:
 
-This is an `ionic-social-buttons` component, which can be used in any Ionic framework's application. No additional plugins required for this component. Please rate this plugin @ [Ionic Market](https://market.ionic.io/plugins/ionic-social-buttons)
+This is an **ionic-social-buttons** component, which can be used in any Ionic framework's application. No additional plugins required for this component.
+ <br />
+**ionic-social-buttons**** is a set of classes that contain contain social buttos from ionicons by Ionic Framework
+ <br />
+ Please rate this plugin @ [Ionic Market](https://market.ionic.io/plugins/ionic-social-buttons)
 
 
 ### Prerequisites.
@@ -21,91 +25,112 @@ This is an `ionic-social-buttons` component, which can be used in any Ionic fram
   * ionic setup sass 
   * ionic serve 
 
-### How to use in other project:
+### How to use:
 
-1) Extract file and copy ionic-sidemenu subfolder in your project lib folder
+1. bower install ionic-social-buttons --save
 
-2) Specify the path of  `ionic-sidemenu.bundle.min.js` in your `index.html` file.
+2. config setup in your ionic project with **ionic setup sass**
 
-````html
-<!-- path to ionic -->
-<script src="lib/ionic-sidemenu/ionic-sidemenu.bundle.min.js"></script>
+3. Add the next line in your **./scss/ionic.app.scss**  after importing the library ionic 
+
+```css
+@import "www/lib/ionic/scss/ionic";
+@import "www/lib/ionic-social-buttons/ionic-social-buttons.scss";
 ```
 
-3) In your application's main module, inject the dependency `ionic-sidemenu`, in order to work with this plugin
-````javascript
-angular.module('mainModuleName', ['ionic', 'ionic-sidemenu']){
-//
-}
+### Uses :
+
+1. The default button class from ionic is required in the next class
+  * social-button-square-{{social}}
+  * social-button-circle-{{social}}
+  * social-button-{{social}}
+
+2. The default button class from ionic is required for a ionic social button
+
+3. There are classes for large and small buttons
+
+
+### Available class:
+  
+* `Color`
+  * **social-color-{{social}}**
+* `Background view `
+  * **social-view-{{social}}**
+* `Icons`
+  * **social-icon-circle-{{social}}**
+  * **social-icon-circle-outline-{{social}}**
+* `Buttons`
+  * Required
+    * **button** (ionic)
+  * Icon and Text
+    * **social-button-{{social}}**
+    * **social-button-outline-{{social}}**
+  * Icon
+    * **social-button-square-{{social}}**
+    * **social-button-circle-{{social}}** 
+  * Big (add class before)
+    * **social-button-large**
+  * Small (add class before)
+    * **social-button-large**
+
+#### Available social buttons:
+
+  * android
+  * angular
+  * apple
+  * bitcoin
+  * codepen
+  * css3
+  * dropbox
+  * facebook
+  * foursquare
+  * google
+  * github
+  * instagram
+  * javascript
+  * html5
+  * linkedin
+  * pinterest
+  * reddit
+  * sass
+  * snapchat
+  * skype
+  * tumblr
+  * twitter
+  * vimeo
+  * twitch
+  * whatsapp
+  * wordpress
+  * yahoo
+  * youtube
+
+#### Examples:
+
+```html
+  <i class="social-icon-circle-instagram"></i>
+  <i class="social-icon-circle-outline-twitter">
+  <button class="social-button-facebook">
+  <button class="social-button-outline-linkedin">
+  <button class="button social-button-square-sass">
+  <button class="button social-button-square-skype">
 ```
 
-4) You can configure this side menu at application level in the side menu controller to creating a json tree and theme.
-Your config method may look like this if you wish to setup the configuration.
+#### Imágenes
 
-````javascript
-.controller('SideMenuCtrl', function($scope) {
-  $scope.theme = 'ionic-sidemenu-dark';
-  $scope.tree =
-    [{
-      id: 1,
-      level: 0,
-      name: 'Maps',
-      icon: "ion-map",
-      items: [{
-        id: 10,
-        level: 1,
-        name: 'Marker',
-        icon: "ion-ios-location",
-        items: [{
-          id: 100,
-          name: 'Images',
-          level: 2,
-          icon: "ion-image",
-          state: 'app.search',
-          items: null
-        }, {
-          id: 101,
-          level: 2,
-          name: 'User',
-          icon: "ion-person",
-          state: 'app.browse',
-          items: null
-        }]
-      }]
-    }, {
-      id: 2,
-      name: "Buy",
-      icon: "ion-card",
-      level: 0,
-      state: 'app.playlists'
-    }];
-});
-```
 
-5) Inject in your menu.html  a this example template to replacing ion-content of ion-side-menu.
 
-````html
-    <ion-content ng-controller="SideMenuCtrl" ng-class="theme" >
-        <div class="sidemenu-header">
-          <img src="img/avatar.jpg"/>
-        </div>
-        <ion-list >
-          <ionic-sidemenu tree="tree"></ionic-sidemenu>
-        </ion-list>
-    </ion-content>
-```
+<a href="https://postimg.org/image/4x2008l1r/" target="_blank"><img src="https://s19.postimg.org/4x2008l1r/img5.jpg" alt="img5"/></a>
+<a href="https://postimg.org/image/vd0rm4g3z/" target="_blank"><img src="https://s19.postimg.org/vd0rm4g3z/img1.jpg" alt="img1"/></a>
+<a href="https://postimg.org/image/ob2tzxci7/" target="_blank"><img src="https://s19.postimg.org/ob2tzxci7/img2.jpg" alt="img2"/></a>
+<a href="https://postimg.org/image/gwdi7jqmn/" target="_blank"><img src="https://s19.postimg.org/gwdi7jqmn/img3.jpg" alt="img3"/></a>
+<a href="https://postimg.org/image/6atmvjkb3/" target="_blank"><img src="https://s19.postimg.org/6atmvjkb3/img4.jpg" alt="img4"/></a>
+<a href="https://postimg.org/image/e646actxr/" target="_blank"><img src="https://s19.postimg.org/e646actxr/img6.jpg" alt="img6"/></a>
+<a href="https://postimg.org/image/o4tqaksr3/" target="_blank"><img src="https://s19.postimg.org/o4tqaksr3/img7.jpg" alt="img7"/></a>
+<a href="https://postimg.org/image/ovmggcv4f/" target="_blank"><img src="https://s19.postimg.org/ovmggcv4f/img8.jpg" alt="img8"/></a>
 
-6) ionic-sidemenu count with five themes,
-look at step five for an example 
 
-  * ionic-sidemenu-blue
-  * ionic-sidemenu-red
-  * ionic-sidemenu-green
-  * ionic-sidemenu-stable
-  * ionic-sidemenu-dark 
+#### Contact:
 
-##Contact:
-Gmail : carlospilesdeveloper@gmail.com
-
-Comment or Rate it : https://market.ionic.io/plugins/ionic-sidemenu
+Gmail : carlospilesdeveloper@gmail.com <br />
+Comment or Rate it : https://market.ionic.io/plugins/ionic-social-buttons
 

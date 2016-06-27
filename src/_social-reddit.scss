@@ -2,7 +2,7 @@
 * @Author: Carlos Piles
 * @Date:   2016-06-20 07:56:05
 * @Last Modified by:   carlos
-* @Last Modified time: 2016-06-24 13:46:08
+* @Last Modified time: 2016-06-27 06:40:16
 */
 /**
  * Social reddit
@@ -29,7 +29,7 @@
  		background-color: $social-reddit-hover;
  	}
  }
- .social-button-reddit-outline{
+ .social-button-outline-reddit{
  	@extend .ion-social-reddit;
  	@extend .social-button-outline;
  	color: $social-reddit;

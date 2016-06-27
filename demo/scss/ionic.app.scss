@@ -20,6 +20,6 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
+@import "www/lib/ionic-social-buttons/ionic-social-buttons.scss";
 @import "_view.scss";
-@import "ionic-social-buttons/ionic-social-buttons.scss";
 

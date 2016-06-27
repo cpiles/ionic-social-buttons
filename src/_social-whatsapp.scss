@@ -2,7 +2,7 @@
 * @Author: Carlos Piles
 * @Date:   2016-06-20 07:56:05
 * @Last Modified by:   carlos
-* @Last Modified time: 2016-06-24 15:00:17
+* @Last Modified time: 2016-06-27 06:41:01
 */
 /**
  * Social whatsapp
@@ -30,7 +30,7 @@
  	}
  }
 
- .social-button-whatsapp-outline{
+ .social-button-outline-whatsapp{
  	@extend .ion-social-whatsapp;
  	@extend .social-button-outline;
  	color: $social-whatsapp;

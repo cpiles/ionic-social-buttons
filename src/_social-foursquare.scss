@@ -2,7 +2,7 @@
 * @Author: Carlos Piles
 * @Date:   2016-06-20 07:56:05
 * @Last Modified by:   carlos
-* @Last Modified time: 2016-06-24 13:44:37
+* @Last Modified time: 2016-06-27 06:39:25
 */
 /**
  * Social foursquare
@@ -29,7 +29,7 @@
  		background-color: $social-foursquare-hover;
  	}
  }
- .social-icon-circle-outline-foursquare{
+ .social-icon-circle-foursquare-outline{
  	@extend .ion-social-foursquare;
  	@extend .social-icon-circle;
  	background: $social-foursquare-color;

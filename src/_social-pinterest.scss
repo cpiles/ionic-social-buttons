@@ -2,7 +2,7 @@
 * @Author: Carlos Piles
 * @Date:   2016-06-20 07:56:05
 * @Last Modified by:   carlos
-* @Last Modified time: 2016-06-24 13:45:47
+* @Last Modified time: 2016-06-27 06:40:10
 */
 /**
  * Social pinterest
@@ -29,7 +29,7 @@
  		background-color: $social-pinterest-hover;
  	}
  }
- .social-button-pinterest-outline{
+ .social-button-outline-pinterest{
  	@extend .ion-social-pinterest;
  	@extend .social-button-outline;
  	color: $social-pinterest;
