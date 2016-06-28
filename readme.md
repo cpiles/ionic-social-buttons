@@ -117,7 +117,7 @@ This is an **ionic-social-buttons** component, which can be used in any Ionic fr
   <button class="button social-button-square-skype">
 ```
 
-#### Imágenes
+#### Images
 
 
 
