@@ -1,0 +1,107 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:39:38
+*/
+/**
+ * Social google
+ */
+ $social-google:#dd4b39;
+ $social-google-color:#FFF;
+ $social-google-active:#a32b1c;
+ $social-google-hover:#c23321;
+ .social-view-google{
+ 	@extend .social-view;
+ 	background: $social-google;
+ }
+ .social-color-google{
+ 	color: $social-google;
+ }
+ .social-button-google{
+ 	@extend .ion-social-googleplus;
+ 	@extend .social-button;
+ 	background: $social-google;
+ 	color:$social-google-color;
+ 	&:active{
+ 		background-color: $social-google-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-google-hover;
+ 	}
+ }
+ .social-button-outline-google{
+ 	@extend .ion-social-googleplus;
+ 	@extend .social-button-outline;
+ 	color: $social-google;
+ 	background:$social-google-color;
+ 	border:1px solid $social-google;
+ 	&:active{
+ 		background-color: $social-google-color;
+ 		color: $social-google-active;
+ 		border:1px solid $social-google-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-google-color;
+ 		color: $social-google-hover;
+ 		border:1px solid $social-google-hover;
+ 	}
+ }
+ .social-button-circle-google{
+ 	@extend .ion-social-googleplus;
+ 	@extend .social-button-circle;
+ 	background: $social-google;
+ 	color: $social-google-color;
+ 	&:active{
+ 		background-color: $social-google-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-google-hover;
+ 	}
+ }
+ .social-button-square-google{
+ 	@extend .ion-social-googleplus;
+ 	@extend .social-button-square;
+ 	background: $social-google;
+ 	color:$social-google-color;
+ 	&:active{
+ 		background-color: $social-google-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-google-hover;
+ 	}
+ }
+ .social-icon-circle-google{
+ 	@extend .ion-social-googleplus;
+ 	@extend .social-icon-circle;
+ 	background: $social-google;
+ 	color:$social-google-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-google{
+ 	@extend .ion-social-googleplus;
+ 	@extend .social-icon-circle;
+ 	background: $social-google-color;
+ 	color:$social-google;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-google.activated 
+ , .social-button-circle-google.activated 
+ , .social-button-square-google.activated{
+ 	background:$social-google-hover !important;
+ }
+ .social-button-google-outline.activated{
+ 	background:$social-google-color !important;
+ 	color:$social-google !important;
+ 	border:1px solid $social-google !important;
+ }
+/**
+ * End Social google
+ */

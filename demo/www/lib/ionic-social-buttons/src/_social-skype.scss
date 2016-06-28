@@ -1,0 +1,111 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:40:28
+*/
+/**
+ * Social skype
+ */
+ $social-skype:#00AFF0;
+ $social-skype-color:#FFF;
+ $social-skype-active:#00A8E6;
+ $social-skype-hover:#00A8E6;
+ .social-view-skype{
+ 	@extend .social-view;
+ 	background: $social-skype;
+ }
+ .social-color-skype{
+ 	color: $social-skype;
+ }
+ .social-button-skype{
+ 	@extend .ion-social-skype;
+ 	@extend .social-button;
+ 	background: $social-skype;
+ 	color:$social-skype-color;
+ 	&:active{
+ 		background-color: $social-skype-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-skype-hover;
+ 	}
+ }
+
+ .social-button-outline-skype{
+ 	@extend .ion-social-skype;
+ 	@extend .social-button-outline;
+ 	color: $social-skype;
+ 	background:$social-skype-color;
+ 	border:1px solid $social-skype;
+ 	&:active{
+ 		background-color: $social-skype-color;
+ 		color: $social-skype-active;
+ 		border:1px solid $social-skype-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-skype-color;
+ 		color: $social-skype-hover;
+ 		border:1px solid $social-skype-hover;
+ 	}
+ }
+ .social-button-circle-skype{
+ 	@extend .ion-social-skype;
+ 	@extend .social-button-circle;
+ 	background: $social-skype;
+ 	color: $social-skype-color;
+ 	&:before{
+ 		//font-size:2.0em !important;
+ 	}
+ 	&:active{
+ 		background-color: $social-skype-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-skype-hover;
+ 	}
+ }
+ .social-button-square-skype{
+ 	@extend .ion-social-skype;
+ 	@extend .social-button-square;
+ 	background: $social-skype;
+ 	color:$social-skype-color;
+ 	&:active{
+ 		background-color: $social-skype-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-skype-hover;
+ 	}
+ }
+ .social-icon-circle-skype{
+ 	@extend .ion-social-skype;
+ 	@extend .social-icon-circle;
+ 	background: $social-skype;
+ 	color:$social-skype-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-skype{
+ 	@extend .ion-social-skype;
+ 	@extend .social-icon-circle;
+ 	background: $social-skype-color;
+ 	color:$social-skype;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-skype.activated 
+ , .social-button-circle-skype.activated 
+ , .social-button-square-skype.activated{
+ 	background:$social-skype-hover !important;
+ }
+ .social-button-skype-outline.activated{
+ 	background:$social-skype-color !important;
+ 	color:$social-skype !important;
+ 	border:1px solid $social-skype !important;
+ }
+/**
+ * End Social skype
+ */

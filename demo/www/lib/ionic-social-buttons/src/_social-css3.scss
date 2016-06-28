@@ -1,0 +1,111 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:39:10
+*/
+/**
+ * Social css3
+ */
+ $social-css3:#29A9DF;
+ $social-css3-color:#FFF;
+ $social-css3-active:#0170BA;
+ $social-css3-hover:#0170BA;
+ .social-view-css3{
+ 	@extend .social-view;
+ 	background: $social-css3;
+ }
+ .social-color-css3{
+ 	color: $social-css3;
+ }
+ .social-button-css3{
+ 	@extend .ion-social-css3;
+ 	@extend .social-button;
+ 	background: $social-css3;
+ 	color:$social-css3-color;
+ 	&:active{
+ 		background-color: $social-css3-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-css3-hover;
+ 	}
+ }
+
+ .social-button-outline-css3{
+ 	@extend .ion-social-css3;
+ 	@extend .social-button-outline;
+ 	color: $social-css3;
+ 	background:$social-css3-color;
+ 	border:1px solid $social-css3;
+ 	&:active{
+ 		background-color: $social-css3-color;
+ 		color: $social-css3-active;
+ 		border:1px solid $social-css3-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-css3-color;
+ 		color: $social-css3-hover;
+ 		border:1px solid $social-css3-hover;
+ 	}
+ }
+ .social-button-circle-css3{
+ 	@extend .ion-social-css3;
+ 	@extend .social-button-circle;
+ 	background: $social-css3;
+ 	color: $social-css3-color;
+ 	&:before{
+ 		//font-size:2.0em !important;
+ 	}
+ 	&:active{
+ 		background-color: $social-css3-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-css3-hover;
+ 	}
+ }
+ .social-button-square-css3{
+ 	@extend .ion-social-css3;
+ 	@extend .social-button-square;
+ 	background: $social-css3;
+ 	color:$social-css3-color;
+ 	&:active{
+ 		background-color: $social-css3-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-css3-hover;
+ 	}
+ }
+ .social-icon-circle-css3{
+ 	@extend .ion-social-css3;
+ 	@extend .social-icon-circle;
+ 	background: $social-css3;
+ 	color:$social-css3-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-css3{
+ 	@extend .ion-social-css3;
+ 	@extend .social-icon-circle;
+ 	background: $social-css3-color;
+ 	color:$social-css3;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-css3.activated 
+ , .social-button-circle-css3.activated 
+ , .social-button-square-css3.activated{
+ 	background:$social-css3-hover !important;
+ }
+ .social-button-css3-outline.activated{
+ 	background:$social-css3-color !important;
+ 	color:$social-css3 !important;
+ 	border:1px solid $social-css3 !important;
+ }
+/**
+ * End Social css3
+ */

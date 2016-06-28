@@ -1,0 +1,107 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:40:51
+*/
+/**
+ * Social twitter
+ */
+ $social-twitter:#55acee;
+ $social-twitter-color:#FFF;
+ $social-twitter-active:#1583d7;
+ $social-twitter-hover:#2795e9;
+ .social-view-twitter{
+ 	@extend .social-view;
+ 	background: $social-twitter;
+ }
+ .social-color-twitter{
+ 	color: $social-twitter;
+ }
+ .social-button-twitter{
+ 	@extend .ion-social-twitter;
+ 	@extend .social-button;
+ 	background: $social-twitter;
+ 	color:$social-twitter-color;
+ 	&:active{
+ 		background-color: $social-twitter-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-twitter-hover;
+ 	}
+ }
+ .social-button-outline-twitter{
+ 	@extend .ion-social-twitter;
+ 	@extend .social-button-outline;
+ 	color: $social-twitter;
+ 	background:$social-twitter-color;
+ 	border:1px solid $social-twitter;
+ 	&:active{
+ 		background-color: $social-twitter-color;
+ 		color: $social-twitter-active;
+ 		border:1px solid $social-twitter-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-twitter-color;
+ 		color: $social-twitter-hover;
+ 		border:1px solid $social-twitter-hover;
+ 	}
+ }
+ .social-button-circle-twitter{
+ 	@extend .ion-social-twitter;
+ 	@extend .social-button-circle;
+ 	background: $social-twitter;
+ 	color: $social-twitter-color;
+ 	&:active{
+ 		background-color: $social-twitter-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-twitter-hover;
+ 	}
+ }
+ .social-button-square-twitter{
+ 	@extend .ion-social-twitter;
+ 	@extend .social-button-square;
+ 	background: $social-twitter;
+ 	color:$social-twitter-color;
+ 	&:active{
+ 		background-color: $social-twitter-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-twitter-hover;
+ 	}
+ }
+ .social-icon-circle-twitter{
+ 	@extend .ion-social-twitter;
+ 	@extend .social-icon-circle;
+ 	background: $social-twitter;
+ 	color:$social-twitter-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-twitter{
+ 	@extend .ion-social-twitter;
+ 	@extend .social-icon-circle;
+ 	background: $social-twitter-color;
+ 	color:$social-twitter;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-twitter.activated 
+ , .social-button-circle-twitter.activated 
+ , .social-button-square-twitter.activated{
+ 	background:$social-twitter-hover !important;
+ }
+ .social-button-twitter-outline.activated{
+ 	background:$social-twitter-color !important;
+ 	color:$social-twitter !important;
+ 	border:1px solid $social-twitter !important;
+ }
+/**
+ * End Social twitter
+ */

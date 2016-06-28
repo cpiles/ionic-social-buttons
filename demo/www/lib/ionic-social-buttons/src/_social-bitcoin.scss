@@ -1,0 +1,111 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:38:58
+*/
+/**
+ * Social bitcoin
+ */
+ $social-bitcoin:#F7931A;
+ $social-bitcoin-color:#FFF;
+ $social-bitcoin-active:#F7931A;
+ $social-bitcoin-hover:#F7931A;
+ .social-view-bitcoin{
+ 	@extend .social-view;
+ 	background: $social-bitcoin;
+ }
+ .social-color-bitcoin{
+ 	color: $social-bitcoin;
+ }
+ .social-button-bitcoin{
+ 	@extend .ion-social-bitcoin;
+ 	@extend .social-button;
+ 	background: $social-bitcoin;
+ 	color:$social-bitcoin-color;
+ 	&:active{
+ 		background-color: $social-bitcoin-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-bitcoin-hover;
+ 	}
+ }
+
+ .social-button-outline-bitcoin{
+ 	@extend .ion-social-bitcoin;
+ 	@extend .social-button-outline;
+ 	color: $social-bitcoin;
+ 	background:$social-bitcoin-color;
+ 	border:1px solid $social-bitcoin;
+ 	&:active{
+ 		background-color: $social-bitcoin-color;
+ 		color: $social-bitcoin-active;
+ 		border:1px solid $social-bitcoin-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-bitcoin-color;
+ 		color: $social-bitcoin-hover;
+ 		border:1px solid $social-bitcoin-hover;
+ 	}
+ }
+ .social-button-circle-bitcoin{
+ 	@extend .ion-social-bitcoin;
+ 	@extend .social-button-circle;
+ 	background: $social-bitcoin;
+ 	color: $social-bitcoin-color;
+ 	&:before{
+ 		//font-size:2.0em !important;
+ 	}
+ 	&:active{
+ 		background-color: $social-bitcoin-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-bitcoin-hover;
+ 	}
+ }
+ .social-button-square-bitcoin{
+ 	@extend .ion-social-bitcoin;
+ 	@extend .social-button-square;
+ 	background: $social-bitcoin;
+ 	color:$social-bitcoin-color;
+ 	&:active{
+ 		background-color: $social-bitcoin-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-bitcoin-hover;
+ 	}
+ }
+ .social-icon-circle-bitcoin{
+ 	@extend .ion-social-bitcoin;
+ 	@extend .social-icon-circle;
+ 	background: $social-bitcoin;
+ 	color:$social-bitcoin-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-bitcoin{
+ 	@extend .ion-social-bitcoin;
+ 	@extend .social-icon-circle;
+ 	background: $social-bitcoin-color;
+ 	color:$social-bitcoin;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-bitcoin.activated 
+ , .social-button-circle-bitcoin.activated 
+ , .social-button-square-bitcoin.activated{
+ 	background:$social-bitcoin-hover !important;
+ }
+ .social-button-bitcoin-outline.activated{
+ 	background:$social-bitcoin-color !important;
+ 	color:$social-bitcoin !important;
+ 	border:1px solid $social-bitcoin !important;
+ }
+/**
+ * End Social bitcoin
+ */

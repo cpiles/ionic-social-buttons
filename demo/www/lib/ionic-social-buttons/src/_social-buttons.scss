@@ -1,0 +1,169 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 04:51:19
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 03:43:38
+*/
+$social-view-default: #FFF;
+$social-hover-color: #FFF;
+$social-active-color: #FFF;
+.social-view{
+	background: $social-view-default;
+}
+.social-active{
+	color: $social-active-color;
+	border-color: rgba(0,0,0,0.2);
+}
+.social-hover{
+	color: $social-hover-color;
+	border-color: rgba(0,0,0,0.2);
+}
+.social-button-normal{
+	width: 40px;
+	height: 40px;
+	&:before{
+		font-size: 35px !important;
+		line-height: 40px !important;
+	}
+}
+.social-button-large {
+	width: 70px;
+	height: 70px;
+	&:before{
+		line-height: 70px !important;
+		font-size: 60px !important;
+	}
+}
+.social-button-small {
+	width: 30px;
+	height: 30px;
+	min-width: 30px;
+	min-height: 30px;
+	padding-top:14px !important;
+	&:before{
+		line-height: 2px !important;
+		font-size: 20px !important;
+	}
+}
+.social-button{
+	//@extend .button;
+	@extend .icon-left;
+	pointer-events: initial !important;
+	padding: 6px 12px;
+	margin:0px auto;
+	border:none;
+	font-weight:bold;
+	&:active{
+		@extend .social-active;
+	}
+	&:hover{
+		@extend .social-hover;
+	}
+	&:before{
+		font-size: 35px !important;
+	}
+}
+.social-button-outline{
+	//@extend .button;
+	@extend .icon-left;
+	pointer-events: initial !important;
+	padding: 6px 12px;
+	border:none;
+	margin:0px auto;
+	font-weight:bold;
+	&:active{
+		border-color: rgba(0,0,0,0.2);
+	}
+	&:hover{
+		border-color: rgba(0,0,0,0.2);
+	}
+	&:before{
+		font-size: 35px !important;
+	}
+}
+.social-button-circle{
+	//@extend .button;
+	@extend .social-button-normal;
+	@extend .icon;
+	pointer-events: initial !important;
+	display: inline-block;
+	border-radius: 50%;
+	border:none;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 0px;
+	&:active{
+		@extend .social-active;
+	}
+	&:hover{
+		@extend .social-hover;
+	}
+}
+.social-button-square{
+	//@extend .button;
+	@extend .social-button-normal;
+	@extend .icon;
+	pointer-events: initial !important;
+	display: inline-block;
+	border-radius: 3px;
+	border:none;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 0px;
+	&:active{
+		@extend .social-active;
+	}
+	&:hover{
+		@extend .social-hover;
+	}
+}
+.social-icon-circle{
+	//@extend .social-button-normal;
+	@extend .icon;
+	pointer-events: none !important;
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border:none;
+	text-decoration: none;
+	color: white;
+	padding: 0px;
+	text-align: center;
+	&:before{
+		font-size: 32px;
+		line-height: 40px;
+	}
+	&:active{
+		@extend .social-active;
+	}
+	&:hover{
+		@extend .social-hover;
+	}
+}
+.social-icon-circle-outline{
+	//@extend .social-button-normal;
+	@extend .icon;
+	pointer-events: none !important;
+	display: inline-block;
+	border:none;
+	border-radius: 50%;
+	text-decoration: none;
+	color: white;
+	border:none;
+	padding: 0px;
+	text-align: center;
+	border:none;
+	&:before{
+		font-size: 32px;
+		line-height: 40px;
+	}
+	&:active{
+		@extend .social-active;
+	}
+	&:hover{
+		@extend .social-hover;
+	}
+}

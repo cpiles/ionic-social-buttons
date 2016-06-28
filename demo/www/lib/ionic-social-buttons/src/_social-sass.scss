@@ -1,0 +1,111 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:40:23
+*/
+/**
+ * Social sass
+ */
+ $social-sass:#C6538C;
+ $social-sass-color:#FFF;
+ $social-sass-active:#C6538C;
+ $social-sass-hover:#C6538C;
+ .social-view-sass{
+ 	@extend .social-view;
+ 	background: $social-sass;
+ }
+ .social-color-sass{
+ 	color: $social-sass;
+ }
+ .social-button-sass{
+ 	@extend .ion-social-sass;
+ 	@extend .social-button;
+ 	background: $social-sass;
+ 	color:$social-sass-color;
+ 	&:active{
+ 		background-color: $social-sass-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-sass-hover;
+ 	}
+ }
+
+ .social-button-outline-sass{
+ 	@extend .ion-social-sass;
+ 	@extend .social-button-outline;
+ 	color: $social-sass;
+ 	background:$social-sass-color;
+ 	border:1px solid $social-sass;
+ 	&:active{
+ 		background-color: $social-sass-color;
+ 		color: $social-sass-active;
+ 		border:1px solid $social-sass-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-sass-color;
+ 		color: $social-sass-hover;
+ 		border:1px solid $social-sass-hover;
+ 	}
+ }
+ .social-button-circle-sass{
+ 	@extend .ion-social-sass;
+ 	@extend .social-button-circle;
+ 	background: $social-sass;
+ 	color: $social-sass-color;
+ 	&:before{
+ 		//font-size:2.0em !important;
+ 	}
+ 	&:active{
+ 		background-color: $social-sass-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-sass-hover;
+ 	}
+ }
+ .social-button-square-sass{
+ 	@extend .ion-social-sass;
+ 	@extend .social-button-square;
+ 	background: $social-sass;
+ 	color:$social-sass-color;
+ 	&:active{
+ 		background-color: $social-sass-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-sass-hover;
+ 	}
+ }
+ .social-icon-circle-sass{
+ 	@extend .ion-social-sass;
+ 	@extend .social-icon-circle;
+ 	background: $social-sass;
+ 	color:$social-sass-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-sass{
+ 	@extend .ion-social-sass;
+ 	@extend .social-icon-circle;
+ 	background: $social-sass-color;
+ 	color:$social-sass;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-sass.activated 
+ , .social-button-circle-sass.activated 
+ , .social-button-square-sass.activated{
+ 	background:$social-sass-hover !important;
+ }
+ .social-button-sass-outline.activated{
+ 	background:$social-sass-color !important;
+ 	color:$social-sass !important;
+ 	border:1px solid $social-sass !important;
+ }
+/**
+ * End Social sass
+ */

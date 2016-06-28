@@ -1,0 +1,111 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:40:43
+*/
+/**
+ * Social twitch
+ */
+ $social-twitch:#6542A6;
+ $social-twitch-color:#FFF;
+ $social-twitch-active:#452A6F;
+ $social-twitch-hover:#452A6F;
+ .social-view-twitch{
+ 	@extend .social-view;
+ 	background: $social-twitch;
+ }
+ .social-color-twitch{
+ 	color: $social-twitch;
+ }
+ .social-button-twitch{
+ 	@extend .ion-social-twitch;
+ 	@extend .social-button;
+ 	background: $social-twitch;
+ 	color:$social-twitch-color;
+ 	&:active{
+ 		background-color: $social-twitch-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-twitch-hover;
+ 	}
+ }
+
+ .social-button-outline-twitch{
+ 	@extend .ion-social-twitch;
+ 	@extend .social-button-outline;
+ 	color: $social-twitch;
+ 	background:$social-twitch-color;
+ 	border:1px solid $social-twitch;
+ 	&:active{
+ 		background-color: $social-twitch-color;
+ 		color: $social-twitch-active;
+ 		border:1px solid $social-twitch-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-twitch-color;
+ 		color: $social-twitch-hover;
+ 		border:1px solid $social-twitch-hover;
+ 	}
+ }
+ .social-button-circle-twitch{
+ 	@extend .ion-social-twitch;
+ 	@extend .social-button-circle;
+ 	background: $social-twitch;
+ 	color: $social-twitch-color;
+ 	&:before{
+ 		//font-size:2.0em !important;
+ 	}
+ 	&:active{
+ 		background-color: $social-twitch-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-twitch-hover;
+ 	}
+ }
+ .social-button-square-twitch{
+ 	@extend .ion-social-twitch;
+ 	@extend .social-button-square;
+ 	background: $social-twitch;
+ 	color:$social-twitch-color;
+ 	&:active{
+ 		background-color: $social-twitch-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-twitch-hover;
+ 	}
+ }
+ .social-icon-circle-twitch{
+ 	@extend .ion-social-twitch;
+ 	@extend .social-icon-circle;
+ 	background: $social-twitch;
+ 	color:$social-twitch-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-twitch{
+ 	@extend .ion-social-twitch;
+ 	@extend .social-icon-circle;
+ 	background: $social-twitch-color;
+ 	color:$social-twitch;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-twitch.activated 
+ , .social-button-circle-twitch.activated 
+ , .social-button-square-twitch.activated{
+ 	background:$social-twitch-hover !important;
+ }
+ .social-button-twitch-outline.activated{
+ 	background:$social-twitch-color !important;
+ 	color:$social-twitch !important;
+ 	border:1px solid $social-twitch !important;
+ }
+/**
+ * End Social twitch
+ */

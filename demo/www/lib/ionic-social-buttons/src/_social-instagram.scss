@@ -1,0 +1,107 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:39:53
+*/
+/**
+ * Social instagram
+ */
+$social-instagram:#3f729b;
+$social-instagram-color:#FFF;
+$social-instagram-active:#26455d;
+$social-instagram-hover:#305777;
+ .social-view-instagram{
+ 	@extend .social-view;
+ 	background: $social-instagram;
+ }
+  .social-color-instagram{
+ 	color: $social-instagram;
+ }
+ .social-button-instagram{
+ 	@extend .ion-social-instagram-outline;
+ 	@extend .social-button;
+ 	background: $social-instagram;
+ 	color:$social-instagram-color;
+ 	&:active{
+ 		background-color: $social-instagram-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-instagram-hover;
+ 	}
+ }
+  .social-button-outline-instagram{
+ 	@extend .ion-social-instagram;
+ 	@extend .social-button-outline;
+ 	color: $social-instagram;
+ 	background:$social-instagram-color;
+ 	border:1px solid $social-instagram;
+ 	&:active{
+ 		background-color: $social-instagram-color;
+ 		border:1px solid $social-instagram-active;
+ 		color: $social-instagram-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-instagram-color;
+ 		border:1px solid $social-instagram-hover;
+ 		color: $social-instagram-hover;
+ 	}
+ }
+ .social-button-circle-instagram{
+ 	@extend .ion-social-instagram-outline;
+ 	@extend .social-button-circle;
+ 	background: $social-instagram;
+ 	color: $social-instagram-color;
+ 	&:active{
+ 		background-color: $social-instagram-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-instagram-hover;
+ 	}
+ }
+ .social-button-square-instagram{
+ 	@extend .ion-social-instagram-outline;
+ 	@extend .social-button-square;
+ 	background: $social-instagram;
+ 	color:$social-instagram-color;
+ 	&:active{
+ 		background-color: $social-instagram-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-instagram-hover;
+ 	}
+ }
+ .social-icon-circle-instagram{
+ 	@extend .ion-social-instagram-outline;
+ 	@extend .social-icon-circle;
+ 	background: $social-instagram;
+ 	color:$social-instagram-color;
+	&:active{
+		@extend .social-active;
+	}
+	&:hover{
+		@extend .social-hover;
+	}
+}
+.social-icon-circle-outline-instagram{
+	@extend .ion-social-instagram;
+	@extend .social-icon-circle;
+	background: $social-instagram-color;
+	color:$social-instagram;
+	&:active{
+		@extend .social-active;
+	}
+	&:hover{
+		@extend .social-hover;
+	}
+}
+ .social-button-instagram.activated 
+ , .social-button-circle-instagram.activated 
+ , .social-button-square-instagram.activated{
+ 	background:$social-instagram-hover !important;
+ }
+  .social-button-facebook-outline.activated{
+ 	background:$social-instagram-color !important;
+ 	color:$social-instagram !important;
+ 	border:1px solid $social-instagram !important;
+ }
+/**
+ * End Social instagram
+ */

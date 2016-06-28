@@ -1,0 +1,110 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:39:15
+*/
+/**
+ * Social dropbox
+ */
+ $social-dropbox:#1087dd;
+ $social-dropbox-color:#FFF;
+ $social-dropbox-active:#0a568c;
+ $social-dropbox-hover:#0d6aad;
+ .social-view-dropbox{
+ 	@extend .social-view;
+ 	background: $social-dropbox;
+ }
+ .social-color-dropbox{
+ 	color: $social-dropbox;
+ }
+ .social-button-dropbox{
+ 	@extend .ion-social-dropbox;
+ 	@extend .social-button;
+ 	background: $social-dropbox;
+ 	color:$social-dropbox-color;
+ 	&:active{
+ 		background-color: $social-dropbox-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-dropbox-hover;
+ 	}
+ }
+ .social-button-outline-dropbox{
+ 	@extend .ion-social-dropbox;
+ 	@extend .social-button-outline;
+ 	color: $social-dropbox;
+ 	background:$social-dropbox-color;
+ 	border:1px solid $social-dropbox;
+ 	&:active{
+ 		background-color: $social-dropbox-color;
+ 		color: $social-dropbox-active;
+ 		border:1px solid $social-dropbox-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-dropbox-color;
+ 		color: $social-dropbox-hover;
+ 		border:1px solid $social-dropbox-hover;
+ 	}
+ }
+ .social-button-circle-dropbox{
+ 	@extend .ion-social-dropbox;
+ 	@extend .social-button-circle;
+ 	background: $social-dropbox;
+ 	color: $social-dropbox-color;
+ 	&:before{
+ 		//font-size:2.0em !important;
+ 	}
+ 	&:active{
+ 		background-color: $social-dropbox-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-dropbox-hover;
+ 	}
+ }
+ .social-button-square-dropbox{
+ 	@extend .ion-social-dropbox;
+ 	@extend .social-button-square;
+ 	background: $social-dropbox;
+ 	color:$social-dropbox-color;
+ 	&:active{
+ 		background-color: $social-dropbox-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-dropbox-hover;
+ 	}
+ }
+ .social-icon-circle-dropbox{
+ 	@extend .ion-social-dropbox;
+ 	@extend .social-icon-circle;
+ 	background: $social-dropbox;
+ 	color:$social-dropbox-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-dropbox{
+ 	@extend .ion-social-dropbox;
+ 	@extend .social-icon-circle;
+ 	background: $social-dropbox-color;
+ 	color:$social-dropbox;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-dropbox.activated 
+ , .social-button-circle-dropbox.activated 
+ , .social-button-square-dropbox.activated{
+ 	background:$social-dropbox-hover !important;
+ }
+ .social-button-dropbox-outline.activated{
+ 	background:$social-dropbox-color !important;
+ 	color:$social-dropbox !important;
+ 	border:1px solid $social-dropbox !important;
+ }
+/**
+ * End Social dropbox
+ */

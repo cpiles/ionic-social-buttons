@@ -1,0 +1,119 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:39:31
+*/
+/**
+ * Social github
+ */
+ $social-github:#444;
+ $social-github-color:#FFF;
+ $social-github-active:#191919;
+ $social-github-hover:#2b2b2b;
+ .social-view-github{
+ 	@extend .social-view;
+ 	background: $social-github;
+ }
+ .social-color-github{
+ 	color: $social-github;
+ }
+ .social-button-github{
+ 	@extend .ion-social-github;
+ 	@extend .social-button;
+ 	background: $social-github;
+ 	color:$social-github-color;
+ 	&:active{
+ 		background-color: $social-github-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-github-hover;
+ 	}
+ }
+ .social-icon-circle-github-outline{
+ 	@extend .ion-social-github;
+ 	@extend .social-icon-circle;
+ 	background: $social-github-color;
+ 	color:$social-github;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-github-outline{
+ 	@extend .ion-social-github;
+ 	@extend .social-button-outline;
+ 	color: $social-github;
+ 	background:$social-github-color;
+ 	border:1px solid $social-github;
+ 	&:active{
+ 		background-color: $social-github-color;
+ 		color: $social-github-active;
+ 		border:1px solid $social-github-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-github-color;
+ 		color: $social-github-hover;
+ 		border:1px solid $social-github-hover;
+ 	}
+ }
+ .social-button-circle-github{
+ 	@extend .ion-social-github;
+ 	@extend .social-button-circle;
+ 	background: $social-github;
+ 	color: $social-github-color;
+ 	&:active{
+ 		background-color: $social-github-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-github-hover;
+ 	}
+ }
+ .social-button-square-github{
+ 	@extend .ion-social-github;
+ 	@extend .social-button-square;
+ 	background: $social-github;
+ 	color:$social-github-color;
+ 	&:active{
+ 		background-color: $social-github-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-github-hover;
+ 	}
+ }
+ .social-icon-circle-github{
+ 	@extend .ion-social-github;
+ 	@extend .social-icon-circle;
+ 	background: $social-github;
+ 	color:$social-github-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-github{
+ 	@extend .ion-social-github;
+ 	@extend .social-icon-circle;
+ 	background: $social-github-color;
+ 	color:$social-github;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-github.activated 
+ , .social-button-circle-github.activated 
+ , .social-button-square-github.activated{
+ 	background:$social-github-hover !important;
+ }
+ .social-button-github-outline.activated{
+ 	background:$social-github-color !important;
+ 	color:$social-github !important;
+ 	border:1px solid $social-github !important;
+ }
+/**
+ * End Social github
+ */

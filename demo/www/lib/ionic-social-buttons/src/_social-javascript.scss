@@ -1,0 +1,111 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:39:59
+*/
+/**
+ * Social javascript
+ */
+ $social-javascript:#FFDA3E;
+ $social-javascript-color:#FFF;
+ $social-javascript-active:#D6BA32;
+ $social-javascript-hover:#D6BA32;
+ .social-view-javascript{
+ 	@extend .social-view;
+ 	background: $social-javascript;
+ }
+ .social-color-javascript{
+ 	color: $social-javascript;
+ }
+ .social-button-javascript{
+ 	@extend .ion-social-javascript;
+ 	@extend .social-button;
+ 	background: $social-javascript;
+ 	color:$social-javascript-color;
+ 	&:active{
+ 		background-color: $social-javascript-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-javascript-hover;
+ 	}
+ }
+
+ .social-button-outline-javascript{
+ 	@extend .ion-social-javascript;
+ 	@extend .social-button-outline;
+ 	color: $social-javascript;
+ 	background:$social-javascript-color;
+ 	border:1px solid $social-javascript;
+ 	&:active{
+ 		background-color: $social-javascript-color;
+ 		color: $social-javascript-active;
+ 		border:1px solid $social-javascript-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-javascript-color;
+ 		color: $social-javascript-hover;
+ 		border:1px solid $social-javascript-hover;
+ 	}
+ }
+ .social-button-circle-javascript{
+ 	@extend .ion-social-javascript;
+ 	@extend .social-button-circle;
+ 	background: $social-javascript;
+ 	color: $social-javascript-color;
+ 	&:before{
+ 		//font-size:2.0em !important;
+ 	}
+ 	&:active{
+ 		background-color: $social-javascript-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-javascript-hover;
+ 	}
+ }
+ .social-button-square-javascript{
+ 	@extend .ion-social-javascript;
+ 	@extend .social-button-square;
+ 	background: $social-javascript;
+ 	color:$social-javascript-color;
+ 	&:active{
+ 		background-color: $social-javascript-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-javascript-hover;
+ 	}
+ }
+ .social-icon-circle-javascript{
+ 	@extend .ion-social-javascript;
+ 	@extend .social-icon-circle;
+ 	background: $social-javascript;
+ 	color:$social-javascript-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-javascript{
+ 	@extend .ion-social-javascript;
+ 	@extend .social-icon-circle;
+ 	background: $social-javascript-color;
+ 	color:$social-javascript;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-javascript.activated 
+ , .social-button-circle-javascript.activated 
+ , .social-button-square-javascript.activated{
+ 	background:$social-javascript-hover !important;
+ }
+ .social-button-javascript-outline.activated{
+ 	background:$social-javascript-color !important;
+ 	color:$social-javascript !important;
+ 	border:1px solid $social-javascript !important;
+ }
+/**
+ * End Social javascript
+ */

@@ -1,0 +1,111 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:38:26
+*/
+/**
+ * Social angular
+ */
+ $social-angular:#E62A39;
+ $social-angular-color:#FFF;
+ $social-angular-active:#B92933;
+ $social-angular-hover:#B92933;
+ .social-view-angular{
+ 	@extend .social-view;
+ 	background: $social-angular;
+ }
+ .social-color-angular{
+ 	color: $social-angular;
+ }
+ .social-button-angular{
+ 	@extend .ion-social-angular;
+ 	@extend .social-button;
+ 	background: $social-angular;
+ 	color:$social-angular-color;
+ 	&:active{
+ 		background-color: $social-angular-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-angular-hover;
+ 	}
+ }
+
+ .social-button-outline-angular{
+ 	@extend .ion-social-angular;
+ 	@extend .social-button-outline;
+ 	color: $social-angular;
+ 	background:$social-angular-color;
+ 	border:1px solid $social-angular;
+ 	&:active{
+ 		background-color: $social-angular-color;
+ 		color: $social-angular-active;
+ 		border:1px solid $social-angular-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-angular-color;
+ 		color: $social-angular-hover;
+ 		border:1px solid $social-angular-hover;
+ 	}
+ }
+ .social-button-circle-angular{
+ 	@extend .ion-social-angular;
+ 	@extend .social-button-circle;
+ 	background: $social-angular;
+ 	color: $social-angular-color;
+ 	&:before{
+ 		//font-size:2.0em !important;
+ 	}
+ 	&:active{
+ 		background-color: $social-angular-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-angular-hover;
+ 	}
+ }
+ .social-button-square-angular{
+ 	@extend .ion-social-angular;
+ 	@extend .social-button-square;
+ 	background: $social-angular;
+ 	color:$social-angular-color;
+ 	&:active{
+ 		background-color: $social-angular-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-angular-hover;
+ 	}
+ }
+ .social-icon-circle-angular{
+ 	@extend .ion-social-angular;
+ 	@extend .social-icon-circle;
+ 	background: $social-angular;
+ 	color:$social-angular-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-angular{
+ 	@extend .ion-social-angular;
+ 	@extend .social-icon-circle;
+ 	background: $social-angular-color;
+ 	color:$social-angular;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-angular.activated 
+ , .social-button-circle-angular.activated 
+ , .social-button-square-angular.activated{
+ 	background:$social-angular-hover !important;
+ }
+ .social-button-angular-outline.activated{
+ 	background:$social-angular-color !important;
+ 	color:$social-angular !important;
+ 	border:1px solid $social-angular !important;
+ }
+/**
+ * End Social angular
+ */

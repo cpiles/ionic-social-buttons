@@ -1,0 +1,107 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:40:04
+*/
+/**
+ * Social linkedin
+ */
+ $social-linkedin:#007bb6;
+ $social-linkedin-color:#FFF;
+ $social-linkedin-active:#00405f;
+ $social-linkedin-hover:#005983;
+ .social-view-linkedin{
+ 	@extend .social-view;
+ 	background: $social-linkedin;
+ }
+ .social-color-linkedin{
+ 	color: $social-linkedin;
+ }
+ .social-button-linkedin{
+ 	@extend .ion-social-linkedin;
+ 	@extend .social-button;
+ 	background: $social-linkedin;
+ 	color:$social-linkedin-color;
+ 	&:active{
+ 		background-color: $social-linkedin-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-linkedin-hover;
+ 	}
+ }
+ .social-button-outline-linkedin{
+ 	@extend .ion-social-linkedin;
+ 	@extend .social-button-outline;
+ 	color: $social-linkedin;
+ 	background:$social-linkedin-color;
+ 	border:1px solid $social-linkedin;
+ 	&:active{
+ 		background-color: $social-linkedin-color;
+ 		color: $social-linkedin-active;
+ 		border:1px solid $social-linkedin-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-linkedin-color;
+ 		color: $social-linkedin-hover;
+ 		border:1px solid $social-linkedin-hover;
+ 	}
+ }
+ .social-button-circle-linkedin{
+ 	@extend .ion-social-linkedin;
+ 	@extend .social-button-circle;
+ 	background: $social-linkedin;
+ 	color: $social-linkedin-color;
+ 	&:active{
+ 		background-color: $social-linkedin-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-linkedin-hover;
+ 	}
+ }
+ .social-button-square-linkedin{
+ 	@extend .ion-social-linkedin;
+ 	@extend .social-button-square;
+ 	background: $social-linkedin;
+ 	color:$social-linkedin-color;
+ 	&:active{
+ 		background-color: $social-linkedin-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-linkedin-hover;
+ 	}
+ }
+ .social-icon-circle-linkedin{
+ 	@extend .ion-social-linkedin;
+ 	@extend .social-icon-circle;
+ 	background: $social-linkedin;
+ 	color:$social-linkedin-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-linkedin{
+ 	@extend .ion-social-linkedin;
+ 	@extend .social-icon-circle;
+ 	background: $social-linkedin-color;
+ 	color:$social-linkedin;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-linkedin.activated 
+ , .social-button-circle-linkedin.activated 
+ , .social-button-square-linkedin.activated{
+ 	background:$social-linkedin-hover !important;
+ }
+ .social-button-linkedin-outline.activated{
+ 	background:$social-linkedin-color !important;
+ 	color:$social-linkedin !important;
+ 	border:1px solid $social-linkedin !important;
+ }
+/**
+ * End Social linkedin
+ */

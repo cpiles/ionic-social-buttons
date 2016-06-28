@@ -1,0 +1,111 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:41:17
+*/
+/**
+ * Social youtube
+ */
+ $social-youtube:#E22C28;
+ $social-youtube-color:#FFF;
+ $social-youtube-active:#CC231C;
+ $social-youtube-hover:#CD241D;
+ .social-view-youtube{
+ 	@extend .social-view;
+ 	background: $social-youtube;
+ }
+ .social-color-youtube{
+ 	color: $social-youtube;
+ }
+ .social-button-youtube{
+ 	@extend .ion-social-youtube;
+ 	@extend .social-button;
+ 	background: $social-youtube;
+ 	color:$social-youtube-color;
+ 	&:active{
+ 		background-color: $social-youtube-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-youtube-hover;
+ 	}
+ }
+
+ .social-button-outline-youtube{
+ 	@extend .ion-social-youtube;
+ 	@extend .social-button-outline;
+ 	color: $social-youtube;
+ 	background:$social-youtube-color;
+ 	border:1px solid $social-youtube;
+ 	&:active{
+ 		background-color: $social-youtube-color;
+ 		color: $social-youtube-active;
+ 		border:1px solid $social-youtube-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-youtube-color;
+ 		color: $social-youtube-hover;
+ 		border:1px solid $social-youtube-hover;
+ 	}
+ }
+ .social-button-circle-youtube{
+ 	@extend .ion-social-youtube;
+ 	@extend .social-button-circle;
+ 	background: $social-youtube;
+ 	color: $social-youtube-color;
+ 	&:before{
+ 		//font-size:2.0em !important;
+ 	}
+ 	&:active{
+ 		background-color: $social-youtube-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-youtube-hover;
+ 	}
+ }
+ .social-button-square-youtube{
+ 	@extend .ion-social-youtube;
+ 	@extend .social-button-square;
+ 	background: $social-youtube;
+ 	color:$social-youtube-color;
+ 	&:active{
+ 		background-color: $social-youtube-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-youtube-hover;
+ 	}
+ }
+ .social-icon-circle-youtube{
+ 	@extend .ion-social-youtube;
+ 	@extend .social-icon-circle;
+ 	background: $social-youtube;
+ 	color:$social-youtube-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-youtube{
+ 	@extend .ion-social-youtube;
+ 	@extend .social-icon-circle;
+ 	background: $social-youtube-color;
+ 	color:$social-youtube;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-youtube.activated 
+ , .social-button-circle-youtube.activated 
+ , .social-button-square-youtube.activated{
+ 	background:$social-youtube-hover !important;
+ }
+ .social-button-youtube-outline.activated{
+ 	background:$social-youtube-color !important;
+ 	color:$social-youtube !important;
+ 	border:1px solid $social-youtube !important;
+ }
+/**
+ * End Social youtube
+ */

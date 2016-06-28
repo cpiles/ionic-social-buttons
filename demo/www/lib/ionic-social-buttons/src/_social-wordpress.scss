@@ -1,0 +1,111 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:41:06
+*/
+/**
+ * Social wordpress
+ */
+ $social-wordpress:#00A0D2;
+ $social-wordpress-color:#FFF;
+ $social-wordpress-active:#1D8BBE;
+ $social-wordpress-hover:#1D8BBE;
+ .social-view-wordpress{
+ 	@extend .social-view;
+ 	background: $social-wordpress;
+ }
+ .social-color-wordpress{
+ 	color: $social-wordpress;
+ }
+ .social-button-wordpress{
+ 	@extend .ion-social-wordpress;
+ 	@extend .social-button;
+ 	background: $social-wordpress;
+ 	color:$social-wordpress-color;
+ 	&:active{
+ 		background-color: $social-wordpress-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-wordpress-hover;
+ 	}
+ }
+
+ .social-button-outline-wordpress{
+ 	@extend .ion-social-wordpress;
+ 	@extend .social-button-outline;
+ 	color: $social-wordpress;
+ 	background:$social-wordpress-color;
+ 	border:1px solid $social-wordpress;
+ 	&:active{
+ 		background-color: $social-wordpress-color;
+ 		color: $social-wordpress-active;
+ 		border:1px solid $social-wordpress-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-wordpress-color;
+ 		color: $social-wordpress-hover;
+ 		border:1px solid $social-wordpress-hover;
+ 	}
+ }
+ .social-button-circle-wordpress{
+ 	@extend .ion-social-wordpress;
+ 	@extend .social-button-circle;
+ 	background: $social-wordpress;
+ 	color: $social-wordpress-color;
+ 	&:before{
+ 		//font-size:2.0em !important;
+ 	}
+ 	&:active{
+ 		background-color: $social-wordpress-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-wordpress-hover;
+ 	}
+ }
+ .social-button-square-wordpress{
+ 	@extend .ion-social-wordpress;
+ 	@extend .social-button-square;
+ 	background: $social-wordpress;
+ 	color:$social-wordpress-color;
+ 	&:active{
+ 		background-color: $social-wordpress-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-wordpress-hover;
+ 	}
+ }
+ .social-icon-circle-wordpress{
+ 	@extend .ion-social-wordpress;
+ 	@extend .social-icon-circle;
+ 	background: $social-wordpress;
+ 	color:$social-wordpress-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-wordpress{
+ 	@extend .ion-social-wordpress;
+ 	@extend .social-icon-circle;
+ 	background: $social-wordpress-color;
+ 	color:$social-wordpress;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-wordpress.activated 
+ , .social-button-circle-wordpress.activated 
+ , .social-button-square-wordpress.activated{
+ 	background:$social-wordpress-hover !important;
+ }
+ .social-button-wordpress-outline.activated{
+ 	background:$social-wordpress-color !important;
+ 	color:$social-wordpress !important;
+ 	border:1px solid $social-wordpress !important;
+ }
+/**
+ * End Social wordpress
+ */

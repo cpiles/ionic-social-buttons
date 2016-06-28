@@ -1,0 +1,107 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:40:16
+*/
+/**
+ * Social reddit
+ */
+ $social-reddit:#bcddff;
+ $social-reddit-color:#000;
+ $social-reddit-active:#98ccff;
+ $social-reddit-hover:#bcddff;
+ .social-view-reddit{
+ 	@extend .social-view;
+ 	background: $social-reddit;
+ }
+ .social-color-reddit{
+ 	color: $social-reddit;
+ }
+ .social-button-reddit{
+ 	@extend .ion-social-reddit;
+ 	@extend .social-button;
+ 	background: $social-reddit;
+ 	color:$social-reddit-color;
+ 	&:active{
+ 		background-color: $social-reddit-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-reddit-hover;
+ 	}
+ }
+ .social-button-outline-reddit{
+ 	@extend .ion-social-reddit;
+ 	@extend .social-button-outline;
+ 	color: $social-reddit;
+ 	background:$social-reddit-color;
+ 	border:1px solid $social-reddit;
+ 	&:active{
+ 		background-color: $social-reddit-color;
+ 		color: $social-reddit-active;
+ 		border:1px solid $social-reddit-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-reddit-color;
+ 		color: $social-reddit-hover;
+ 		border:1px solid $social-reddit-hover;
+ 	}
+ }
+ .social-button-circle-reddit{
+ 	@extend .ion-social-reddit;
+ 	@extend .social-button-circle;
+ 	background: $social-reddit;
+ 	color: $social-reddit-color;
+ 	&:active{
+ 		background-color: $social-reddit-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-reddit-hover;
+ 	}
+ }
+ .social-button-square-reddit{
+ 	@extend .ion-social-reddit;
+ 	@extend .social-button-square;
+ 	background: $social-reddit;
+ 	color:$social-reddit-color;
+ 	&:active{
+ 		background-color: $social-reddit-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-reddit-hover;
+ 	}
+ }
+ .social-icon-circle-reddit{
+ 	@extend .ion-social-reddit;
+ 	@extend .social-icon-circle;
+ 	background: $social-reddit;
+ 	color:$social-reddit-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-reddit{
+ 	@extend .ion-social-reddit;
+ 	@extend .social-icon-circle;
+ 	background: #FFF;
+ 	color:$social-reddit-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-reddit.activated 
+ , .social-button-circle-reddit.activated 
+ , .social-button-square-reddit.activated{
+ 	background:$social-reddit-hover !important;
+ }
+ .social-button-reddit-outline.activated{
+ 	background:$social-reddit-color !important;
+ 	color:$social-reddit !important;
+ 	border:1px solid $social-reddit !important;
+ }
+/**
+ * End Social reddit
+ */

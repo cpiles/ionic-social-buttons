@@ -1,0 +1,111 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:38:16
+*/
+/**
+ * Social android
+ */
+ $social-android:#A4CA39;
+ $social-android-color:#FFF;
+ $social-android-active:#99CC00;
+ $social-android-hover:#99CC00;
+ .social-view-android{
+ 	@extend .social-view;
+ 	background: $social-android;
+ }
+ .social-color-android{
+ 	color: $social-android;
+ }
+ .social-button-android{
+ 	@extend .ion-social-android;
+ 	@extend .social-button;
+ 	background: $social-android;
+ 	color:$social-android-color;
+ 	&:active{
+ 		background-color: $social-android-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-android-hover;
+ 	}
+ }
+
+ .social-button-outline-android{
+ 	@extend .ion-social-android;
+ 	@extend .social-button-outline;
+ 	color: $social-android;
+ 	background:$social-android-color;
+ 	border:1px solid $social-android;
+ 	&:active{
+ 		background-color: $social-android-color;
+ 		color: $social-android-active;
+ 		border:1px solid $social-android-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-android-color;
+ 		color: $social-android-hover;
+ 		border:1px solid $social-android-hover;
+ 	}
+ }
+ .social-button-circle-android{
+ 	@extend .ion-social-android;
+ 	@extend .social-button-circle;
+ 	background: $social-android;
+ 	color: $social-android-color;
+ 	&:before{
+ 		//font-size:2.0em !important;
+ 	}
+ 	&:active{
+ 		background-color: $social-android-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-android-hover;
+ 	}
+ }
+ .social-button-square-android{
+ 	@extend .ion-social-android;
+ 	@extend .social-button-square;
+ 	background: $social-android;
+ 	color:$social-android-color;
+ 	&:active{
+ 		background-color: $social-android-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-android-hover;
+ 	}
+ }
+ .social-icon-circle-android{
+ 	@extend .ion-social-android;
+ 	@extend .social-icon-circle;
+ 	background: $social-android;
+ 	color:$social-android-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-android{
+ 	@extend .ion-social-android;
+ 	@extend .social-icon-circle;
+ 	background: $social-android-color;
+ 	color:$social-android;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-android.activated 
+ , .social-button-circle-android.activated 
+ , .social-button-square-android.activated{
+ 	background:$social-android-hover !important;
+ }
+ .social-button-android-outline.activated{
+ 	background:$social-android-color !important;
+ 	color:$social-android !important;
+ 	border:1px solid $social-android !important;
+ }
+/**
+ * End Social android
+ */

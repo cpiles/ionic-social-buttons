@@ -1,0 +1,110 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:40:57
+*/
+/**
+ * Social vimeo
+ */
+ $social-vimeo:#1ab7ea;
+ $social-vimeo-color:#FFF;
+ $social-vimeo-active:#0f7b9f;
+ $social-vimeo-hover:#1295bf;
+ .social-view-vimeo{
+ 	@extend .social-view;
+ 	background: $social-vimeo;
+ }
+ .social-color-vimeo{
+ 	color: $social-vimeo;
+ }
+ .social-button-vimeo{
+ 	@extend .ion-social-vimeo;
+ 	@extend .social-button;
+ 	background: $social-vimeo;
+ 	color:$social-vimeo-color;
+ 	&:active{
+ 		background-color: $social-vimeo-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-vimeo-hover;
+ 	}
+ }
+ .social-button-outline-vimeo{
+ 	@extend .ion-social-vimeo;
+ 	@extend .social-button-outline;
+ 	color: $social-vimeo;
+ 	background:$social-vimeo-color;
+ 	border:1px solid $social-vimeo;
+ 	&:active{
+ 		background-color: $social-vimeo-color;
+ 		color: $social-vimeo-active;
+ 		border:1px solid $social-vimeo-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-vimeo-color;
+ 		color: $social-vimeo-hover;
+ 		border:1px solid $social-vimeo-hover;
+ 	}
+ }
+ .social-button-circle-vimeo{
+ 	@extend .ion-social-vimeo;
+ 	@extend .social-button-circle;
+ 	background: $social-vimeo;
+ 	color: $social-vimeo-color;
+ 	&:before{
+ 		//font-size:2.0em !important;
+ 	}
+ 	&:active{
+ 		background-color: $social-vimeo-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-vimeo-hover;
+ 	}
+ }
+ .social-button-square-vimeo{
+ 	@extend .ion-social-vimeo;
+ 	@extend .social-button-square;
+ 	background: $social-vimeo;
+ 	color:$social-vimeo-color;
+ 	&:active{
+ 		background-color: $social-vimeo-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-vimeo-hover;
+ 	}
+ }
+ .social-icon-circle-vimeo{
+ 	@extend .ion-social-vimeo;
+ 	@extend .social-icon-circle;
+ 	background: $social-vimeo;
+ 	color:$social-vimeo-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-vimeo{
+ 	@extend .ion-social-vimeo;
+ 	@extend .social-icon-circle;
+ 	background: $social-vimeo-color;
+ 	color:$social-vimeo;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-vimeo.activated 
+ , .social-button-circle-vimeo.activated 
+ , .social-button-square-vimeo.activated{
+ 	background:$social-vimeo-hover !important;
+ }
+ .social-button-vimeo-outline.activated{
+ 	background:$social-vimeo-color !important;
+ 	color:$social-vimeo !important;
+ 	border:1px solid $social-vimeo !important;
+ }
+/**
+ * End Social vimeo
+ */

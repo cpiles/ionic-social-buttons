@@ -1,0 +1,111 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:40:34
+*/
+/**
+ * Social snapchat
+ */
+ $social-snapchat:#FFFC01;
+ $social-snapchat-color:#FFF;
+ $social-snapchat-active:#FFFC01;
+ $social-snapchat-hover:#FFFC01;
+ .social-view-snapchat{
+ 	@extend .social-view;
+ 	background: $social-snapchat;
+ }
+ .social-color-snapchat{
+ 	color: $social-snapchat;
+ }
+ .social-button-snapchat{
+ 	@extend .ion-social-snapchat;
+ 	@extend .social-button;
+ 	background: $social-snapchat;
+ 	color:$social-snapchat-color;
+ 	&:active{
+ 		background-color: $social-snapchat-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-snapchat-hover;
+ 	}
+ }
+
+ .social-button-outline-snapchat{
+ 	@extend .ion-social-snapchat;
+ 	@extend .social-button-outline;
+ 	color: $social-snapchat;
+ 	background:$social-snapchat-color;
+ 	border:1px solid $social-snapchat;
+ 	&:active{
+ 		background-color: $social-snapchat-color;
+ 		color: $social-snapchat-active;
+ 		border:1px solid $social-snapchat-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-snapchat-color;
+ 		color: $social-snapchat-hover;
+ 		border:1px solid $social-snapchat-hover;
+ 	}
+ }
+ .social-button-circle-snapchat{
+ 	@extend .ion-social-snapchat;
+ 	@extend .social-button-circle;
+ 	background: $social-snapchat;
+ 	color: $social-snapchat-color;
+ 	&:before{
+ 		//font-size:2.0em !important;
+ 	}
+ 	&:active{
+ 		background-color: $social-snapchat-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-snapchat-hover;
+ 	}
+ }
+ .social-button-square-snapchat{
+ 	@extend .ion-social-snapchat;
+ 	@extend .social-button-square;
+ 	background: $social-snapchat;
+ 	color:$social-snapchat-color;
+ 	&:active{
+ 		background-color: $social-snapchat-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-snapchat-hover;
+ 	}
+ }
+ .social-icon-circle-snapchat{
+ 	@extend .ion-social-snapchat;
+ 	@extend .social-icon-circle;
+ 	background: $social-snapchat;
+ 	color:$social-snapchat-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-snapchat{
+ 	@extend .ion-social-snapchat;
+ 	@extend .social-icon-circle;
+ 	background: $social-snapchat-color;
+ 	color:$social-snapchat;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-snapchat.activated 
+ , .social-button-circle-snapchat.activated 
+ , .social-button-square-snapchat.activated{
+ 	background:$social-snapchat-hover !important;
+ }
+ .social-button-snapchat-outline.activated{
+ 	background:$social-snapchat-color !important;
+ 	color:$social-snapchat !important;
+ 	border:1px solid $social-snapchat !important;
+ }
+/**
+ * End Social snapchat
+ */

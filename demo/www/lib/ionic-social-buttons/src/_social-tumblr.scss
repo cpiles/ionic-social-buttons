@@ -1,0 +1,110 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:40:38
+*/
+/**
+ * Social tumblr
+ */
+ $social-tumblr:#2c4762;
+ $social-tumblr-color:#FFF;
+ $social-tumblr-active:#111c26;
+ $social-tumblr-hover:#1c2d3f;
+ .social-view-tumblr{
+ 	@extend .social-view;
+ 	background: $social-tumblr;
+ }
+ .social-color-tumblr{
+ 	color: $social-tumblr;
+ }
+ .social-button-tumblr{
+ 	@extend .ion-social-tumblr;
+ 	@extend .social-button;
+ 	background: $social-tumblr;
+ 	color:$social-tumblr-color;
+ 	&:active{
+ 		background-color: $social-tumblr-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-tumblr-hover;
+ 	}
+ }
+ .social-button-outline-tumblr{
+ 	@extend .ion-social-tumblr;
+ 	@extend .social-button-outline;
+ 	color: $social-tumblr;
+ 	background:$social-tumblr-color;
+ 	border:1px solid $social-tumblr;
+ 	&:active{
+ 		background-color: $social-tumblr-color;
+ 		color: $social-tumblr-active;
+ 		border:1px solid $social-tumblr-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-tumblr-color;
+ 		color: $social-tumblr-hover;
+ 		border:1px solid $social-tumblr-hover;
+ 	}
+ }
+ .social-button-circle-tumblr{
+ 	@extend .ion-social-tumblr;
+ 	@extend .social-button-circle;
+ 	background: $social-tumblr;
+ 	color: $social-tumblr-color;
+ 	&:before{
+ 		//font-size:2.5em !important;
+ 	}
+ 	&:active{
+ 		background-color: $social-tumblr-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-tumblr-hover;
+ 	}
+ }
+ .social-button-square-tumblr{
+ 	@extend .ion-social-tumblr;
+ 	@extend .social-button-square;
+ 	background: $social-tumblr;
+ 	color:$social-tumblr-color;
+ 	&:active{
+ 		background-color: $social-tumblr-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-tumblr-hover;
+ 	}
+ }
+ .social-icon-circle-tumblr{
+ 	@extend .ion-social-tumblr;
+ 	@extend .social-icon-circle;
+ 	background: $social-tumblr;
+ 	color:$social-tumblr-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-tumblr{
+ 	@extend .ion-social-tumblr;
+ 	@extend .social-icon-circle;
+ 	background: $social-tumblr-color;
+ 	color:$social-tumblr;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-tumblr.activated 
+ , .social-button-circle-tumblr.activated 
+ , .social-button-square-tumblr.activated{
+ 	background:$social-tumblr-hover !important;
+ }
+ .social-button-tumblr-outline.activated{
+ 	background:$social-tumblr-color !important;
+ 	color:$social-tumblr !important;
+ 	border:1px solid $social-tumblr !important;
+ }
+/**
+ * End Social tumblr
+ */

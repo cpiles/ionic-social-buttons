@@ -1,0 +1,111 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:39:06
+*/
+/**
+ * Social codepen
+ */
+ $social-codepen:#000;
+ $social-codepen-color:#FFF;
+ $social-codepen-active:#000;
+ $social-codepen-hover:#000;
+ .social-view-codepen{
+ 	@extend .social-view;
+ 	background: $social-codepen;
+ }
+ .social-color-codepen{
+ 	color: $social-codepen;
+ }
+ .social-button-codepen{
+ 	@extend .ion-social-codepen;
+ 	@extend .social-button;
+ 	background: $social-codepen;
+ 	color:$social-codepen-color;
+ 	&:active{
+ 		background-color: $social-codepen-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-codepen-hover;
+ 	}
+ }
+
+ .social-button-outline-codepen{
+ 	@extend .ion-social-codepen;
+ 	@extend .social-button-outline;
+ 	color: $social-codepen;
+ 	background:$social-codepen-color;
+ 	border:1px solid $social-codepen;
+ 	&:active{
+ 		background-color: $social-codepen-color;
+ 		color: $social-codepen-active;
+ 		border:1px solid $social-codepen-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-codepen-color;
+ 		color: $social-codepen-hover;
+ 		border:1px solid $social-codepen-hover;
+ 	}
+ }
+ .social-button-circle-codepen{
+ 	@extend .ion-social-codepen;
+ 	@extend .social-button-circle;
+ 	background: $social-codepen;
+ 	color: $social-codepen-color;
+ 	&:before{
+ 		//font-size:2.0em !important;
+ 	}
+ 	&:active{
+ 		background-color: $social-codepen-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-codepen-hover;
+ 	}
+ }
+ .social-button-square-codepen{
+ 	@extend .ion-social-codepen;
+ 	@extend .social-button-square;
+ 	background: $social-codepen;
+ 	color:$social-codepen-color;
+ 	&:active{
+ 		background-color: $social-codepen-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-codepen-hover;
+ 	}
+ }
+ .social-icon-circle-codepen{
+ 	@extend .ion-social-codepen;
+ 	@extend .social-icon-circle;
+ 	background: $social-codepen;
+ 	color:$social-codepen-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-codepen{
+ 	@extend .ion-social-codepen;
+ 	@extend .social-icon-circle;
+ 	background: $social-codepen-color;
+ 	color:$social-codepen;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-codepen.activated 
+ , .social-button-circle-codepen.activated 
+ , .social-button-square-codepen.activated{
+ 	background:$social-codepen-hover !important;
+ }
+ .social-button-codepen-outline.activated{
+ 	background:$social-codepen-color !important;
+ 	color:$social-codepen !important;
+ 	border:1px solid $social-codepen !important;
+ }
+/**
+ * End Social codepen
+ */

@@ -1,0 +1,111 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:38:53
+*/
+/**
+ * Social apple
+ */
+ $social-apple:#000;
+ $social-apple-color:#FFF;
+ $social-apple-active:#000;
+ $social-apple-hover:#000;
+ .social-view-apple{
+ 	@extend .social-view;
+ 	background: $social-apple;
+ }
+ .social-color-apple{
+ 	color: $social-apple;
+ }
+ .social-button-apple{
+ 	@extend .ion-social-apple;
+ 	@extend .social-button;
+ 	background: $social-apple;
+ 	color:$social-apple-color;
+ 	&:active{
+ 		background-color: $social-apple-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-apple-hover;
+ 	}
+ }
+
+ .social-button-outline-apple{
+ 	@extend .ion-social-apple;
+ 	@extend .social-button-outline;
+ 	color: $social-apple;
+ 	background:$social-apple-color;
+ 	border:1px solid $social-apple;
+ 	&:active{
+ 		background-color: $social-apple-color;
+ 		color: $social-apple-active;
+ 		border:1px solid $social-apple-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-apple-color;
+ 		color: $social-apple-hover;
+ 		border:1px solid $social-apple-hover;
+ 	}
+ }
+ .social-button-circle-apple{
+ 	@extend .ion-social-apple;
+ 	@extend .social-button-circle;
+ 	background: $social-apple;
+ 	color: $social-apple-color;
+ 	&:before{
+ 		//font-size:2.0em !important;
+ 	}
+ 	&:active{
+ 		background-color: $social-apple-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-apple-hover;
+ 	}
+ }
+ .social-button-square-apple{
+ 	@extend .ion-social-apple;
+ 	@extend .social-button-square;
+ 	background: $social-apple;
+ 	color:$social-apple-color;
+ 	&:active{
+ 		background-color: $social-apple-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-apple-hover;
+ 	}
+ }
+ .social-icon-circle-apple{
+ 	@extend .ion-social-apple;
+ 	@extend .social-icon-circle;
+ 	background: $social-apple;
+ 	color:$social-apple-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-apple{
+ 	@extend .ion-social-apple;
+ 	@extend .social-icon-circle;
+ 	background: $social-apple-color;
+ 	color:$social-apple;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-apple.activated 
+ , .social-button-circle-apple.activated 
+ , .social-button-square-apple.activated{
+ 	background:$social-apple-hover !important;
+ }
+ .social-button-apple-outline.activated{
+ 	background:$social-apple-color !important;
+ 	color:$social-apple !important;
+ 	border:1px solid $social-apple !important;
+ }
+/**
+ * End Social apple
+ */

@@ -1,0 +1,110 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:40:10
+*/
+/**
+ * Social pinterest
+ */
+ $social-pinterest:#cb2027;
+ $social-pinterest-color:#FFF;
+ $social-pinterest-active:#801419;
+ $social-pinterest-hover:#9f191f;
+ .social-view-pinterest{
+ 	@extend .social-view;
+ 	background: $social-pinterest;
+ }
+ .social-color-pinterest{
+ 	color: $social-pinterest;
+ }
+ .social-button-pinterest{
+ 	@extend .ion-social-pinterest;
+ 	@extend .social-button;
+ 	background: $social-pinterest;
+ 	color:$social-pinterest-color;
+ 	&:active{
+ 		background-color: $social-pinterest-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-pinterest-hover;
+ 	}
+ }
+ .social-button-outline-pinterest{
+ 	@extend .ion-social-pinterest;
+ 	@extend .social-button-outline;
+ 	color: $social-pinterest;
+ 	background:$social-pinterest-color;
+ 	border:1px solid $social-pinterest;
+ 	&:active{
+ 		background-color: $social-pinterest-color;
+ 		color: $social-pinterest-active;
+ 		border:1px solid $social-pinterest-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-pinterest-color;
+ 		color: $social-pinterest-hover;
+ 		border:1px solid $social-pinterest-hover;
+ 	}
+ }
+ .social-button-circle-pinterest{
+ 	@extend .ion-social-pinterest;
+ 	@extend .social-button-circle;
+ 	background: $social-pinterest;
+ 	color: $social-pinterest-color;
+ 	&:before{
+ 		//font-size:2.0em !important;
+ 	}
+ 	&:active{
+ 		background-color: $social-pinterest-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-pinterest-hover;
+ 	}
+ }
+ .social-button-square-pinterest{
+ 	@extend .ion-social-pinterest;
+ 	@extend .social-button-square;
+ 	background: $social-pinterest;
+ 	color:$social-pinterest-color;
+ 	&:active{
+ 		background-color: $social-pinterest-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-pinterest-hover;
+ 	}
+ }
+ .social-icon-circle-pinterest{
+ 	@extend .ion-social-pinterest;
+ 	@extend .social-icon-circle;
+ 	background: $social-pinterest;
+ 	color:$social-pinterest-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-pinterest{
+ 	@extend .ion-social-pinterest;
+ 	@extend .social-icon-circle;
+ 	background: $social-pinterest-color;
+ 	color:$social-pinterest;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-pinterest.activated 
+ , .social-button-circle-pinterest.activated 
+ , .social-button-square-pinterest.activated{
+ 	background:$social-pinterest-hover !important;
+ }
+ .social-button-pinterest-outline.activated{
+ 	background:$social-pinterest-color !important;
+ 	color:$social-pinterest !important;
+ 	border:1px solid $social-pinterest !important;
+ }
+/**
+ * End Social pinterest
+ */

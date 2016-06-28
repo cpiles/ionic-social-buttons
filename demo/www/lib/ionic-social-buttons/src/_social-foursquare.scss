@@ -1,0 +1,119 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:39:25
+*/
+/**
+ * Social foursquare
+ */
+ $social-foursquare:#f94877;
+ $social-foursquare-color:#FFF;
+ $social-foursquare-active:#e30742;
+ $social-foursquare-hover:#f71752;
+ .social-view-foursquare{
+ 	@extend .social-view;
+ 	background: $social-foursquare;
+ }
+ .social-color-foursquare{
+ 	color: $social-foursquare;
+ }
+ .social-button-foursquare{
+ 	@extend .ion-social-foursquare;
+ 	@extend .social-button;
+ 	background: $social-foursquare;
+ 	color:$social-foursquare-color;
+ 	&:active{
+ 		background-color: $social-foursquare-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-foursquare-hover;
+ 	}
+ }
+ .social-icon-circle-foursquare-outline{
+ 	@extend .ion-social-foursquare;
+ 	@extend .social-icon-circle;
+ 	background: $social-foursquare-color;
+ 	color:$social-foursquare;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-foursquare-outline{
+ 	@extend .ion-social-foursquare;
+ 	@extend .social-button-outline;
+ 	color: $social-foursquare;
+ 	background:$social-foursquare-color;
+ 	border:1px solid $social-foursquare;
+ 	&:active{
+ 		background-color: $social-foursquare-color;
+ 		color: $social-foursquare-active;
+ 		border:1px solid $social-foursquare-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-foursquare-color;
+ 		color: $social-foursquare-hover;
+ 		border:1px solid $social-foursquare-hover;
+ 	}
+ }
+ .social-button-circle-foursquare{
+ 	@extend .ion-social-foursquare;
+ 	@extend .social-button-circle;
+ 	background: $social-foursquare;
+ 	color: $social-foursquare-color;
+ 	&:active{
+ 		background-color: $social-foursquare-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-foursquare-hover;
+ 	}
+ }
+ .social-button-square-foursquare{
+ 	@extend .ion-social-foursquare;
+ 	@extend .social-button-square;
+ 	background: $social-foursquare;
+ 	color:$social-foursquare-color;
+ 	&:active{
+ 		background-color: $social-foursquare-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-foursquare-hover;
+ 	}
+ }
+ .social-icon-circle-foursquare{
+ 	@extend .ion-social-foursquare;
+ 	@extend .social-icon-circle;
+ 	background: $social-foursquare;
+ 	color:$social-foursquare-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-foursquare{
+ 	@extend .ion-social-foursquare;
+ 	@extend .social-icon-circle;
+ 	background: $social-foursquare-color;
+ 	color:$social-foursquare;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-foursquare.activated 
+ , .social-button-circle-foursquare.activated 
+ , .social-button-square-foursquare.activated{
+ 	background:$social-foursquare-hover !important;
+ }
+ .social-button-foursquare-outline.activated{
+ 	background:$social-foursquare-color !important;
+ 	color:$social-foursquare !important;
+ 	border:1px solid $social-foursquare !important;
+ }
+/**
+ * End Social foursquare
+ */

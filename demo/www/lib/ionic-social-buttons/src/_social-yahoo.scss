@@ -1,0 +1,107 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:41:12
+*/
+/**
+ * Social yahoo
+ */
+ $social-yahoo:#720e9e;
+ $social-yahoo-color:#FFF;
+ $social-yahoo-active:#39074e;
+ $social-yahoo-hover:#500a6f;
+ .social-view-yahoo{
+ 	@extend .social-view;
+ 	background: $social-yahoo;
+ }
+ .social-color-yahoo{
+ 	color: $social-yahoo;
+ }
+ .social-button-yahoo{
+ 	@extend .ion-social-yahoo;
+ 	@extend .social-button;
+ 	background: $social-yahoo;
+ 	color:$social-yahoo-color;
+ 	&:active{
+ 		background-color: $social-yahoo-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-yahoo-hover;
+ 	}
+ }
+ .social-button-outline-yahoo{
+ 	@extend .ion-social-yahoo;
+ 	@extend .social-button-outline;
+ 	color: $social-yahoo;
+ 	background:$social-yahoo-color;
+ 	border:1px solid $social-yahoo;
+ 	&:active{
+ 		background-color: $social-yahoo-color;
+ 		color: $social-yahoo-active;
+ 		border:1px solid $social-yahoo-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-yahoo-color;
+ 		color: $social-yahoo-hover;
+ 		border:1px solid $social-yahoo-hover;
+ 	}
+ }
+ .social-button-circle-yahoo{
+ 	@extend .ion-social-yahoo;
+ 	@extend .social-button-circle;
+ 	background: $social-yahoo;
+ 	color: $social-yahoo-color;
+ 	&:active{
+ 		background-color: $social-yahoo-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-yahoo-hover;
+ 	}
+ }
+ .social-button-square-yahoo{
+ 	@extend .ion-social-yahoo;
+ 	@extend .social-button-square;
+ 	background: $social-yahoo;
+ 	color:$social-yahoo-color;
+ 	&:active{
+ 		background-color: $social-yahoo-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-yahoo-hover;
+ 	}
+ }
+ .social-icon-circle-yahoo{
+ 	@extend .ion-social-yahoo;
+ 	@extend .social-icon-circle;
+ 	background: $social-yahoo;
+ 	color:$social-yahoo-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-yahoo{
+ 	@extend .ion-social-yahoo;
+ 	@extend .social-icon-circle;
+ 	background: $social-yahoo-color;
+ 	color:$social-yahoo;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-yahoo.activated 
+ , .social-button-circle-yahoo.activated 
+ , .social-button-square-yahoo.activated{
+ 	background:$social-yahoo-hover !important;
+ }
+ .social-button-yahoo-outline.activated{
+ 	background:$social-yahoo-color !important;
+ 	color:$social-yahoo !important;
+ 	border:1px solid $social-yahoo !important;
+ }
+/**
+ * End Social yahoo
+ */

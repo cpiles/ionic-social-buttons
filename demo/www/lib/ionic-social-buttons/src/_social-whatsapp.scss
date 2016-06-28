@@ -1,0 +1,111 @@
+/*
+* @Author: Carlos Piles
+* @Date:   2016-06-20 07:56:05
+* @Last Modified by:   carlos
+* @Last Modified time: 2016-06-27 06:41:01
+*/
+/**
+ * Social whatsapp
+ */
+ $social-whatsapp:#49C759;
+ $social-whatsapp-color:#FFF;
+ $social-whatsapp-active:#30B945;
+ $social-whatsapp-hover:#30B945;
+ .social-view-whatsapp{
+ 	@extend .social-view;
+ 	background: $social-whatsapp;
+ }
+ .social-color-whatsapp{
+ 	color: $social-whatsapp;
+ }
+ .social-button-whatsapp{
+ 	@extend .ion-social-whatsapp;
+ 	@extend .social-button;
+ 	background: $social-whatsapp;
+ 	color:$social-whatsapp-color;
+ 	&:active{
+ 		background-color: $social-whatsapp-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-whatsapp-hover;
+ 	}
+ }
+
+ .social-button-outline-whatsapp{
+ 	@extend .ion-social-whatsapp;
+ 	@extend .social-button-outline;
+ 	color: $social-whatsapp;
+ 	background:$social-whatsapp-color;
+ 	border:1px solid $social-whatsapp;
+ 	&:active{
+ 		background-color: $social-whatsapp-color;
+ 		color: $social-whatsapp-active;
+ 		border:1px solid $social-whatsapp-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-whatsapp-color;
+ 		color: $social-whatsapp-hover;
+ 		border:1px solid $social-whatsapp-hover;
+ 	}
+ }
+ .social-button-circle-whatsapp{
+ 	@extend .ion-social-whatsapp;
+ 	@extend .social-button-circle;
+ 	background: $social-whatsapp;
+ 	color: $social-whatsapp-color;
+ 	&:before{
+ 		//font-size:2.0em !important;
+ 	}
+ 	&:active{
+ 		background-color: $social-whatsapp-active;
+ 	}
+ 	&:hover , &:visited {
+ 		background-color: $social-whatsapp-hover;
+ 	}
+ }
+ .social-button-square-whatsapp{
+ 	@extend .ion-social-whatsapp;
+ 	@extend .social-button-square;
+ 	background: $social-whatsapp;
+ 	color:$social-whatsapp-color;
+ 	&:active{
+ 		background-color: $social-whatsapp-active;
+ 	}&:hover , &:visited {
+ 		background-color: $social-whatsapp-hover;
+ 	}
+ }
+ .social-icon-circle-whatsapp{
+ 	@extend .ion-social-whatsapp;
+ 	@extend .social-icon-circle;
+ 	background: $social-whatsapp;
+ 	color:$social-whatsapp-color;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-icon-circle-outline-whatsapp{
+ 	@extend .ion-social-whatsapp;
+ 	@extend .social-icon-circle;
+ 	background: $social-whatsapp-color;
+ 	color:$social-whatsapp;
+ 	&:active{
+ 		@extend .social-active;
+ 	}
+ 	&:hover{
+ 		@extend .social-hover;
+ 	}
+ }
+ .social-button-whatsapp.activated 
+ , .social-button-circle-whatsapp.activated 
+ , .social-button-square-whatsapp.activated{
+ 	background:$social-whatsapp-hover !important;
+ }
+ .social-button-whatsapp-outline.activated{
+ 	background:$social-whatsapp-color !important;
+ 	color:$social-whatsapp !important;
+ 	border:1px solid $social-whatsapp !important;
+ }
+/**
+ * End Social whatsapp
+ */
