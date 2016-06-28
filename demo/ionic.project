@@ -1,5 +1,5 @@
 {
-  "name": "ionic social button"
+  "name": "ionic social button",
   "gulpStartupTasks": [
     "sass",
     "watch"
