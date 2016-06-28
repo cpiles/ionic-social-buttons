@@ -22,7 +22,8 @@
 	"ignore": [
 		"**/.*",
 		"node_modules",
-		"demo/"
+		"demo/",
+		"resources/"
 	],
 	"dependencies": {
 		"ionic": ">=0.9.27"
