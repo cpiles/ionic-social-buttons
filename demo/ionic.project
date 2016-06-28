@@ -1,6 +1,5 @@
 {
-  "name": "ionic social button",
-  "app_id": "29dc4af3",
+  "name": "ionic social button"
   "gulpStartupTasks": [
     "sass",
     "watch"

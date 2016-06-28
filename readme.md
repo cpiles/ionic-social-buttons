@@ -7,8 +7,11 @@ This is an **ionic-social-buttons** component, which can be used in any Ionic fr
 ***
 **ionic-social-buttons** is a set of classes that contain contain social buttos from ionicons by Ionic Framework
  ***
- Please rate this plugin @ [Ionic Market](https://market.ionic.io/plugins/ionic-social-buttons)
-
+ Take a look at it with Ionic View using ID: 29dc4af3
+ ***
+ Take a look at it with github https://github.com/cpiles/ionic-social-buttons
+ ***
+ Please rate this plugin @ [Ionic Market](https://market.ionic.io/themes/ionic-social-buttons)
 
 ### Prerequisites
 
@@ -18,11 +21,10 @@ This is an **ionic-social-buttons** component, which can be used in any Ionic fr
 
 ### Demo project
   
-  * extract file
+  * extract file or git clone https://github.com/cpiles/ionic-social-buttons
   * cd demo/
   * npm install
   * bower install
-  * ionic setup sass 
   * ionic serve 
 
 ### How to use
@@ -132,5 +134,6 @@ This is an **ionic-social-buttons** component, which can be used in any Ionic fr
 #### Contact:
 
 Gmail : carlospilesdeveloper@gmail.com <br />
-Comment or Rate it : https://market.ionic.io/plugins/ionic-social-buttons
+Comment or Rate it :  Please rate this plugin @ [https://market.ionic.io/themes/ionic-social-buttons](https://market.ionic.io/themes/ionic-social-buttons)
 
+ 
